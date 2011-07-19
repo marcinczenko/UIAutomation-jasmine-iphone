@@ -4,7 +4,7 @@ You should see two passing tests in the log.
 
 Pivotal (https://github.com/pivotal/jasmine-iphone) is the original author of all the scripts from 
 the JasmineStyleUIAutomationTests folder. I only modified them and I added HelloWorld-spec.js for demonstration.
-Jasmine is include as a submodule so do not forget to do:
+Jasmine is included as a submodule so do not forget to do:
 
 git submodule update --init
  
