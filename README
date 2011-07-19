@@ -1,9 +1,9 @@
-This is an example project (HelloWorld) and two UIAutomation tests wrapped up by the jasmine BDD style.
-In order to run the tests you need to point UIAutomation instrument to the suite.js file from the JasmineStyleUIAutomationTests folder.
+This is an example project (HelloWorld) accompanied by two UIAutomation tests written in the jasmine BDD style.
+In order to run the tests you need to point UIAutomation instrument at the suite.js file from the JasmineStyleUIAutomationTests folder.
 You should see two passing tests in the log.
 
 Pivotal (https://github.com/pivotal/jasmine-iphone) is the original author of all the scripts from 
-the JasmineStyleUIAutomationTests folder. I only modified them and I added HelloWorld-spec.js for demonstration.
+the JasmineStyleUIAutomationTests folder. I only modified them and I added HelloWorld-spec.js (containing the specs) for the demonstration.
 Jasmine is included as a submodule so do not forget to do:
 
 git submodule update --init
