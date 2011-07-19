@@ -9,6 +9,25 @@
 #import "HelloWorldViewController.h"
 
 @implementation HelloWorldViewController
+{
+    UILabel * label;
+}
+
+@synthesize label;
+
+- (void) buttonPressed:(UIButton *)sender
+{
+    self.label.text = @"Hello World !";
+    
+    NSLog(@"%s","Button Pressed!");
+}
+
+- (void) resetPressed:(UIButton *)sender
+{
+    self.label.text = @"";
+    
+    NSLog(@"%s","Button Reset!");
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -33,6 +52,8 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    self.label.text = @"";
+    
     [super viewWillAppear:animated];
 }
 
