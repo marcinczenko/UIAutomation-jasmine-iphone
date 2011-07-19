@@ -1,0 +1,10 @@
+This is an example project (HelloWorld) and two UIAutomation tests wrapped up by the jasmine BDD style.
+In order to run the tests you need to point UIAutomation instrument to the suite.js file.
+You should see two passing tests in the log.
+
+Notice that pivotal provides the original version of the jasmin support for UIAutomation in Instruments. However, I could not make their code working
+with Xcode 4.2 DP 3. I observed that the import functionality in UIAutomation instrument does not meet pivotal expectations.
+Therefore I've changed slightly their files.
+
+Also notice that I declare the window variable in jasmine-uiautomation.js. Without it, Jasmine will think that window is undefined and will
+use exports. It seems that UIAutomation instrument does not like that.  
