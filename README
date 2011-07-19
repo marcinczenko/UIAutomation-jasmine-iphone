@@ -1,6 +1,6 @@
 This is an example project (HelloWorld) accompanied by two UIAutomation tests written in the jasmine BDD style.
 In order to run the tests you need to point UIAutomation instrument at the suite.js file from the JasmineStyleUIAutomationTests folder.
-You should see two passing tests in the log.
+You should see two passing tests in the log. You have to use the iPhone as a target as I only added some UI elements to the iPhone xib.
 
 Pivotal (https://github.com/pivotal/jasmine-iphone) is the original author of all the scripts from 
 the JasmineStyleUIAutomationTests folder. I only modified them and I added HelloWorld-spec.js (containing the specs) for the demonstration.
