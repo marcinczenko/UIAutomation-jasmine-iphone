@@ -1,3 +1,7 @@
+****************************************** Update *****************************************************
+Tested with Xcode 4.2 DP 4. Added additional target UnitTests (why will be explained soon on my blog).
+*******************************************************************************************************
+
 This is an example project (HelloWorld) accompanied by two UIAutomation tests written in the jasmine BDD style.
 In order to run the tests you need to point UIAutomation instrument at the suite.js file from the JasmineStyleUIAutomationTests folder.
 You should see two passing tests in the log. You have to use the iPhone as a target as I only added some UI elements to the iPhone xib.
