@@ -8,16 +8,19 @@
 
 #import "HelloWorldViewController.h"
 
-@implementation HelloWorldViewController
-{
-    UILabel * label;
-}
+@interface HelloWorldViewController ()
 
-@synthesize label;
+@property (nonatomic, strong) IBOutlet UILabel* label;
+
+@end
+
+@implementation HelloWorldViewController
+
+@synthesize label = _label;
 
 - (void) buttonPressed:(UIButton *)sender
 {
-    self.label.text = @"Hello!";
+    self.label.text = @"Hello World !";
     
     NSLog(@"%s","Button Pressed!");
 }

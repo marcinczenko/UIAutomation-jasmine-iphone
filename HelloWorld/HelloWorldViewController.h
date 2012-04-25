@@ -10,9 +10,9 @@
 
 @interface HelloWorldViewController : UIViewController
 
-@property (strong) IBOutlet UILabel* label;
-
 - (IBAction)buttonPressed:(UIButton*)sender;
 - (IBAction)resetPressed:(UIButton*)sender;
+
+//- (void)timer:(NSTimer*)theTimer;
 
 @end
