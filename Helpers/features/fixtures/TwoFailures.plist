@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>All Samples</key>
+	<array>
+		<dict>
+			<key>LogType</key>
+			<string>Fail</string>
+			<key>Message</key>
+			<string>Hello World App should display "Hello World !" in the label after pressing the "Click Me :)" button.</string>
+			<key>Timestamp</key>
+			<date>2012-04-26T13:43:49Z</date>
+			<key>Type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().mainWindow().buttons()["Click Me :)"].tap()</string>
+			<key>Timestamp</key>
+			<date>2012-04-26T13:43:49Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Fail</string>
+			<key>Message</key>
+			<string>Expected 'Hello World ' to equal 'Hello World !'.\n</string>
+			<key>Screenshot</key>
+			<string>10EB76D3-53C7-4559-B73D-9E477E0D5869</string>
+			<key>Timestamp</key>
+			<date>2012-04-26T13:43:50Z</date>
+			<key>Type</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Fail</string>
+			<key>Message</key>
+			<string>Hello World App should display empty string in the label after pressing the "Reset" button.</string>
+			<key>Timestamp</key>
+			<date>2012-04-26T13:43:50Z</date>
+			<key>Type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().mainWindow().buttons()["Reset"].tap()</string>
+			<key>Timestamp</key>
+			<date>2012-04-26T13:43:50Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().mainWindow().buttons()["Click Me :)"].tap()</string>
+			<key>Timestamp</key>
+			<date>2012-04-26T13:43:50Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.frontMostApp().mainWindow().buttons()["Reset"].tap()</string>
+			<key>Timestamp</key>
+			<date>2012-04-26T13:43:50Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Fail</string>
+			<key>Message</key>
+			<string>Expected 'I am not empty' to equal ''.\n</string>
+			<key>Screenshot</key>
+			<string>5DAC36EB-0534-48A4-A662-D9D8B75E8CB2</string>
+			<key>Timestamp</key>
+			<date>2012-04-26T13:43:50Z</date>
+			<key>Type</key>
+			<integer>7</integer>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
