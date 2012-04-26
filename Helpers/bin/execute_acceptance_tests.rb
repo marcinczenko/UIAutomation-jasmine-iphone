@@ -17,13 +17,13 @@ def instruments_command()
   app = "#{ENV['HOME']}/UIAutomation/build/bin/Release-iphonesimulator/HelloWorld.app"
   script = "#{ENV['WORKSPACE']}/JasmineStyleUIAutomationTests/suite.js"
   log = "#{ENV['HOME']}/UIAutomation/log"
-  puts "instruments -t \"#{template}\" \"#{app}\" -e UIASCRIPT \"#{script}\" -e UIARESULTSPATH \"#{log}\""
+  puts "instruments -t '#{template}' '#{app}' -e UIASCRIPT '#{script}' -e UIARESULTSPATH '#{log}'"
   # "instruments -t #{template} #{app} -e UIASCRIPT #{script} -e UIARESULTSPATH #{log}"
-  "instruments -t \"#{template}\" \"#{app}\" -e UIASCRIPT \"#{script}\" -e UIARESULTSPATH \"#{log}\""
+  "instruments -t '#{template}' '#{app}' -e UIASCRIPT '#{script}' -e UIARESULTSPATH '#{log}'"
 end
 
 def automation_log_parser_command()
-  "#{ENV['WORKSPACE']}/Helpers/bin/parse_automation_log.rb 'Run 1/Automation Results.plist'"
+  "'#{ENV['WORKSPACE']}/Helpers/bin/parse_automation_log.rb' 'Run 1/Automation Results.plist'"
 end
 
 def run_instruments
