@@ -27,7 +27,7 @@ def automation_log_parser_command()
 end
 
 def run_instruments
-  run_command(instruments_command,10)
+  run_command(instruments_command,20)
 end
 
 def run_command(command,timeout)
