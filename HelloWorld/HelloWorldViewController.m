@@ -20,7 +20,7 @@
 
 - (void) buttonPressed:(UIButton *)sender
 {
-    self.label.text = @"Hello World ";
+    self.label.text = @"Hello World !";
     
     NSLog(@"%s","Button Pressed!");
 }
