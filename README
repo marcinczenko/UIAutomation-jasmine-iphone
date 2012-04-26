@@ -1,10 +1,13 @@
 ****************************************** Update *****************************************************
-Tested with Xcode 4.2 DP 4. Added additional target UnitTests (why will be explained soon on my blog).
+Tested with newest Xcode Version 4.3.2 (4E2002).
+Last modification of this document: 27-04-2012.
 *******************************************************************************************************
 
 This is an example project (HelloWorld) accompanied by two UIAutomation tests written in the jasmine BDD style.
 In order to run the tests you need to point UIAutomation instrument at the suite.js file from the JasmineStyleUIAutomationTests folder.
-You should see two passing tests in the log. You have to use the iPhone as a target as I only added some UI elements to the iPhone xib.
+You should see two passing tests in the log. By default I use the iPhone target. iPad device should work as well, but it is not tested at the moment.
+What else can you find in this project. There are two helper scripts, that you can use as a learning material for preparing acceptance tests to be integrated with Continuous Integration system.
+As you probably know, UIAutomation Instrument can be invoked from the command line, but it returns SUCCESS even if there is a failing tests. In the Helpers folder you will find some help. There are two scripts: execute_acceptance_tests.rb is a top level script which 1) runs instruments and 2) it invokes another helper script parse_automation_log.rb in order to find out failing records. If at least one failing record is found it will make the top-level script to return error code 1 meaning FAILURE. For the convenience it also prints each failed case to the standard output. The scripts are Cucumber and RSpec tested so it should be easy to understand how they work and what they are doing just by looking at features and specs. As usually, there is still space for improvement, but I hope this is a reasonable starting starting point for ATDD with iOS. I am using Hudson, and I will take a look how to add a complete snapshot the job so that one can start away immediately (at the moment I do not know if this is even possible).
 
 Pivotal (https://github.com/pivotal/jasmine-iphone) is the original author of all the scripts from 
 the JasmineStyleUIAutomationTests folder. I only modified them and I added HelloWorld-spec.js (containing the specs) for the demonstration.
