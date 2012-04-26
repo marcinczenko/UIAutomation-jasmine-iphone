@@ -17,6 +17,7 @@ def instruments_command()
   app = "#{ENV['HOME']}/UIAutomation/build/bin/Release-iphonesimulator/HelloWorld.app"
   script = "#{ENV['WORKSPACE']}/JasmineStyleUIAutomationTests/suite.js"
   log = "#{ENV['HOME']}/UIAutomation/log"
+  puts "instruments -t #{template} #{app} -e UIASCRIPT #{script} -e UIARESULTSPATH #{log}"
   "instruments -t #{template} #{app} -e UIASCRIPT #{script} -e UIARESULTSPATH #{log}"
 end
 
