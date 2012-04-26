@@ -10,7 +10,6 @@
 		6D2CAEAB15483454006DB513 /* HelloWorldViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D2CAE9C15483454006DB513 /* HelloWorldViewController_iPad.xib */; };
 		6D2CAEAC15483454006DB513 /* HelloWorldViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D2CAE9E15483454006DB513 /* HelloWorldViewController_iPhone.xib */; };
 		6D2CAEAD15483454006DB513 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D2CAEA015483454006DB513 /* InfoPlist.strings */; };
-		6D2CAEAE15483454006DB513 /* HelloWorld-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D2CAEA215483454006DB513 /* HelloWorld-Info.plist */; };
 		6D2CAEAF15483454006DB513 /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2CAEA515483454006DB513 /* HelloWorldAppDelegate.m */; };
 		6D2CAEB015483454006DB513 /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2CAEA715483454006DB513 /* HelloWorldViewController.m */; };
 		6D2CAEB115483454006DB513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2CAEA815483454006DB513 /* main.m */; };
@@ -37,7 +36,6 @@
 		6D2CAEA615483454006DB513 /* HelloWorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
 		6D2CAEA715483454006DB513 /* HelloWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
 		6D2CAEA815483454006DB513 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6D2CAEBA154834B2006DB513 /* RunAcceptanceTests.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = RunAcceptanceTests.sh; sourceTree = "<group>"; };
 		D33B14D113D8F8EF009D79B7 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33B14D213D8F8F0009D79B7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		D33B14D913D8F8F0009D79B7 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
@@ -93,14 +91,6 @@
 			path = HelloWorld;
 			sourceTree = "<group>";
 		};
-		6D2CAEB9154834B2006DB513 /* Scripts */ = {
-			isa = PBXGroup;
-			children = (
-				6D2CAEBA154834B2006DB513 /* RunAcceptanceTests.sh */,
-			);
-			path = Scripts;
-			sourceTree = "<group>";
-		};
 		D33B14D713D8F8F0009D79B7 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +114,6 @@
 		D37CCCC113D4F4AF008459C7 = {
 			isa = PBXGroup;
 			children = (
-				6D2CAEB9154834B2006DB513 /* Scripts */,
 				6D2CAE9B15483454006DB513 /* HelloWorld */,
 				D33B14D713D8F8F0009D79B7 /* UnitTests */,
 				D37CCCCF13D4F4AF008459C7 /* Frameworks */,
@@ -234,7 +223,6 @@
 				6D2CAEAB15483454006DB513 /* HelloWorldViewController_iPad.xib in Resources */,
 				6D2CAEAC15483454006DB513 /* HelloWorldViewController_iPhone.xib in Resources */,
 				6D2CAEAD15483454006DB513 /* InfoPlist.strings in Resources */,
-				6D2CAEAE15483454006DB513 /* HelloWorld-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

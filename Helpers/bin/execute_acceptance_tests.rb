@@ -34,10 +34,10 @@ def run_command(command,timeout)
   runner = Runners::SimpleRunner.new(command)
   runner.start()
   hangupDetector = Runners::HangupDetector.new([runner],timeout)
-  runner.wait()
+  exit_status = runner.wait()
   hangupDetector.stop()
   puts runner.output()
-  if !runner.exited_normally?
+  if !exit_status.success? || !runner.exited_normally?
     1
   else
     0
