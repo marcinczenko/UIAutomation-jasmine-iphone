@@ -5,3 +5,4 @@ $BIN_PATH = String.new File.expand_path('../../../bin',__FILE__)
 $WORKSPACE_ROOT = String.new File.expand_path('../../../../',__FILE__)
 
 require "Shell"
+
